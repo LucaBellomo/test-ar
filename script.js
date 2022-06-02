@@ -1,7 +1,7 @@
 window.onload = () => {
     let places = staticLoadPlaces();
     renderPlaces(places);
-    console.log('v0.0.1')
+    console.log('v0.0.2')
 };
 
 function staticLoadPlaces() {
@@ -9,8 +9,8 @@ function staticLoadPlaces() {
         {
             name: 'Magnemite',
             location: {
-                lat: 45.44292868630965,
-                lng: 9.179309748007588,
+                lat: 45.51445220578241,
+                lng: 9.163347059950654,
             }
         },
         {
