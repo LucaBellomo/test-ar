@@ -1,7 +1,7 @@
 window.onload = () => {
     let places = staticLoadPlaces();
     renderPlaces(places);
-    console.log('v0.0.6')
+    console.log('v0.0.7')
 };
 
 function staticLoadPlaces() {
@@ -35,8 +35,8 @@ function renderPlaces(places) {
         model.setAttribute('gltf-model', './assets/cabinet/SHOE_CABINET.gltf');
         // model.setAttribute('rotation', '0 180 0');
         // model.setAttribute('animation-mixer', '');
-        model.setAttribute('scale', '2, 2, 2');
-        model.setAttribute('position','0 0 0')
+        model.setAttribute('scale', '6, 6, 6');
+        model.setAttribute('position','0 -1.5 0')
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
